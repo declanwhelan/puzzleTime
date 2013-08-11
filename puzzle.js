@@ -33,6 +33,7 @@
       }
       this.places.push(new Blank(8));
       this.initialPlaces = this.places.slice(0);
+      this.mixup();
     }
 
     Puzzle.prototype.mixup = function() {

@@ -16,7 +16,7 @@ class Puzzle
 			@places.push t
 		@places.push new Blank(8)
 		@initialPlaces = @places.slice 0
-		# @mixup()
+		@mixup()
 
 	mixup: () =>
 		blankpos = 8
